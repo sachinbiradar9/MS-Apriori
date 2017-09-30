@@ -1,0 +1,362 @@
+Frequent 1-itemsets
+
+    274 : {26}
+    353 : {33}
+    459 : {19}
+    327 : {32}
+    253 : {40}
+    529 : {43}
+    298 : {23}
+    260 : {4}
+    284 : {10}
+    260 : {11}
+    301 : {47}
+    318 : {2}
+    313 : {16}
+    456 : {28}
+    251 : {39}
+    556 : {17}
+    469 : {37}
+    545 : {6}
+
+    Total number of freuqent 1-itemsets = 18
+
+
+Frequent 2-itemsets
+
+    93 : {26, 33}
+Tailcount = 353
+    60 : {26, 5}
+Tailcount = 193
+    127 : {26, 19}
+Tailcount = 459
+    82 : {26, 32}
+Tailcount = 327
+    61 : {26, 40}
+Tailcount = 253
+    155 : {26, 43}
+Tailcount = 529
+    79 : {26, 23}
+Tailcount = 298
+    71 : {26, 4}
+Tailcount = 260
+    84 : {26, 10}
+Tailcount = 284
+    77 : {26, 11}
+Tailcount = 260
+    80 : {26, 47}
+Tailcount = 301
+    83 : {26, 2}
+Tailcount = 318
+    88 : {26, 16}
+Tailcount = 313
+    125 : {26, 28}
+Tailcount = 456
+    59 : {26, 39}
+Tailcount = 251
+    159 : {26, 17}
+Tailcount = 556
+    60 : {26, 46}
+Tailcount = 279
+    126 : {26, 37}
+Tailcount = 469
+    150 : {26, 6}
+Tailcount = 545
+    54 : {33, 50}
+Tailcount = 148
+    68 : {33, 5}
+Tailcount = 193
+    65 : {33, 8}
+Tailcount = 188
+    163 : {33, 19}
+Tailcount = 459
+    116 : {33, 32}
+Tailcount = 327
+    89 : {33, 40}
+Tailcount = 253
+    166 : {33, 43}
+Tailcount = 529
+    51 : {33, 22}
+Tailcount = 144
+    111 : {33, 23}
+Tailcount = 298
+    89 : {33, 4}
+Tailcount = 260
+    103 : {33, 10}
+Tailcount = 284
+    93 : {33, 11}
+Tailcount = 260
+    100 : {33, 47}
+Tailcount = 301
+    104 : {33, 2}
+Tailcount = 318
+    122 : {33, 16}
+Tailcount = 313
+    156 : {33, 28}
+Tailcount = 456
+    83 : {33, 39}
+Tailcount = 251
+    201 : {33, 17}
+Tailcount = 556
+    103 : {33, 46}
+Tailcount = 279
+    165 : {33, 37}
+Tailcount = 469
+    195 : {33, 6}
+Tailcount = 545
+    78 : {50, 19}
+Tailcount = 459
+    75 : {50, 43}
+Tailcount = 529
+    50 : {50, 10}
+Tailcount = 284
+    53 : {50, 2}
+Tailcount = 318
+    65 : {50, 28}
+Tailcount = 456
+    60 : {50, 37}
+Tailcount = 469
+    84 : {50, 6}
+Tailcount = 545
+    100 : {5, 43}
+Tailcount = 529
+    103 : {5, 17}
+Tailcount = 556
+    104 : {8, 43}
+Tailcount = 529
+    107 : {8, 17}
+Tailcount = 556
+    102 : {8, 6}
+Tailcount = 545
+    148 : {19, 32}
+Tailcount = 327
+    114 : {19, 40}
+Tailcount = 253
+    247 : {19, 43}
+Tailcount = 529
+    134 : {19, 23}
+Tailcount = 298
+    111 : {19, 4}
+Tailcount = 260
+    130 : {19, 10}
+Tailcount = 284
+    118 : {19, 11}
+Tailcount = 260
+    138 : {19, 47}
+Tailcount = 301
+    140 : {19, 2}
+Tailcount = 318
+    142 : {19, 16}
+Tailcount = 313
+    213 : {19, 28}
+Tailcount = 456
+    104 : {19, 39}
+Tailcount = 251
+    265 : {19, 17}
+Tailcount = 556
+    133 : {19, 46}
+Tailcount = 279
+    211 : {19, 37}
+Tailcount = 469
+    259 : {19, 6}
+Tailcount = 545
+    176 : {32, 43}
+Tailcount = 529
+    106 : {32, 23}
+Tailcount = 298
+    156 : {32, 28}
+Tailcount = 456
+    170 : {32, 17}
+Tailcount = 556
+    151 : {32, 37}
+Tailcount = 469
+    161 : {32, 6}
+Tailcount = 545
+    117 : {40, 43}
+Tailcount = 529
+    109 : {40, 28}
+Tailcount = 456
+    142 : {40, 17}
+Tailcount = 556
+    142 : {40, 37}
+Tailcount = 469
+    146 : {40, 6}
+Tailcount = 545
+    157 : {43, 23}
+Tailcount = 298
+    154 : {43, 4}
+Tailcount = 260
+    158 : {43, 10}
+Tailcount = 284
+    145 : {43, 11}
+Tailcount = 260
+    158 : {43, 47}
+Tailcount = 301
+    163 : {43, 2}
+Tailcount = 318
+    162 : {43, 16}
+Tailcount = 313
+    258 : {43, 28}
+Tailcount = 456
+    127 : {43, 39}
+Tailcount = 251
+    305 : {43, 17}
+Tailcount = 556
+    129 : {43, 46}
+Tailcount = 279
+    232 : {43, 37}
+Tailcount = 469
+    284 : {43, 6}
+Tailcount = 545
+    165 : {23, 17}
+Tailcount = 556
+    174 : {23, 6}
+Tailcount = 545
+
+    Total number of freuqent 2-itemsets = 94
+
+
+Frequent 3-itemsets
+
+    58 : {26, 33, 17}
+Tailcount = 201
+    55 : {26, 33, 6}
+Tailcount = 195
+    79 : {26, 19, 43}
+Tailcount = 247
+    60 : {26, 19, 28}
+Tailcount = 213
+    85 : {26, 19, 17}
+Tailcount = 265
+    58 : {26, 19, 37}
+Tailcount = 211
+    73 : {26, 19, 6}
+Tailcount = 259
+    50 : {26, 43, 10}
+Tailcount = 158
+    53 : {26, 43, 47}
+Tailcount = 158
+    77 : {26, 43, 28}
+Tailcount = 258
+    94 : {26, 43, 17}
+Tailcount = 305
+    70 : {26, 43, 37}
+Tailcount = 232
+    78 : {26, 43, 6}
+Tailcount = 284
+    55 : {26, 23, 6}
+Tailcount = 174
+    55 : {26, 10, 6}
+Tailcount = 167
+    54 : {26, 2, 6}
+Tailcount = 183
+    55 : {26, 16, 17}
+Tailcount = 179
+    56 : {26, 16, 6}
+Tailcount = 176
+    62 : {33, 19, 32}
+Tailcount = 148
+    78 : {33, 19, 43}
+Tailcount = 247
+    53 : {33, 19, 10}
+Tailcount = 130
+    57 : {33, 19, 16}
+Tailcount = 142
+    75 : {33, 19, 28}
+Tailcount = 213
+    89 : {33, 19, 17}
+Tailcount = 265
+    73 : {33, 19, 37}
+Tailcount = 211
+    92 : {33, 19, 6}
+Tailcount = 259
+    50 : {33, 32, 43}
+Tailcount = 176
+    53 : {33, 32, 28}
+Tailcount = 156
+    59 : {33, 32, 17}
+Tailcount = 170
+    57 : {33, 32, 37}
+Tailcount = 151
+    54 : {33, 32, 6}
+Tailcount = 161
+    51 : {33, 40, 37}
+Tailcount = 142
+    52 : {33, 43, 10}
+Tailcount = 158
+    51 : {33, 43, 47}
+Tailcount = 158
+    56 : {33, 43, 16}
+Tailcount = 162
+    77 : {33, 43, 28}
+Tailcount = 258
+    101 : {33, 43, 17}
+Tailcount = 305
+    74 : {33, 43, 37}
+Tailcount = 232
+    93 : {33, 43, 6}
+Tailcount = 284
+    57 : {33, 23, 28}
+Tailcount = 141
+    62 : {33, 23, 17}
+Tailcount = 165
+    62 : {33, 23, 37}
+Tailcount = 146
+    70 : {33, 23, 6}
+Tailcount = 174
+    57 : {33, 4, 6}
+Tailcount = 155
+    53 : {33, 10, 17}
+Tailcount = 146
+    63 : {33, 10, 6}
+Tailcount = 167
+    52 : {33, 11, 37}
+Tailcount = 128
+    54 : {33, 11, 6}
+Tailcount = 140
+    55 : {33, 47, 17}
+Tailcount = 166
+    50 : {33, 47, 37}
+Tailcount = 142
+    52 : {33, 47, 6}
+Tailcount = 159
+    63 : {33, 2, 17}
+Tailcount = 171
+    50 : {33, 2, 37}
+Tailcount = 148
+    65 : {33, 2, 6}
+Tailcount = 183
+    65 : {33, 16, 17}
+Tailcount = 179
+    67 : {33, 16, 37}
+Tailcount = 161
+    78 : {33, 16, 6}
+Tailcount = 176
+    50 : {33, 39, 17}
+Tailcount = 140
+    61 : {33, 17, 46}
+Tailcount = 160
+    59 : {33, 46, 37}
+Tailcount = 147
+    56 : {33, 46, 6}
+Tailcount = 152
+    118 : {19, 43, 28}
+Tailcount = 258
+    149 : {19, 43, 17}
+Tailcount = 305
+    111 : {19, 43, 37}
+Tailcount = 232
+    132 : {19, 43, 6}
+Tailcount = 284
+
+    Total number of freuqent 3-itemsets = 65
+
+
+Frequent 4-itemsets
+
+    52 : {26, 19, 43, 17}
+Tailcount = 149
+
+    Total number of freuqent 4-itemsets = 1
+
+
