@@ -4,6 +4,6 @@ MS-Apriori is an extended version of Apriori to allow multiple minimum supports.
 ## Usage
 `python msapriori.py transaction.txt parameter.txt output.txt`
 
-**transaction.txt** has transactional data
-**parameter.txt** has various parameters - _MIS, maximum support difference, cannot be together, must have_
-**output.txt** will contain the final output
+**transaction.txt** has transactional data <br />
+**parameter.txt** has various parameters - _MIS, maximum support difference, cannot be together, must have_ <br />
+**output.txt** will contain the final output<br />
