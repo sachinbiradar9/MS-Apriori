@@ -10,27 +10,30 @@ output_file = argv[3]
 
 
 def fileParser(transaction_file, parameter_file):
+    T = []
     with open(transaction_file,'r') as trans:
-        T = [map(str, list(eval(row))) for row in trans]
+        for row in trans:
+            transarr = re.findall(r'{.*?}',row)
+            T.extend([map(str, list(eval(innerrow))) for innerrow in transarr])
 
     with open(parameter_file,'r') as param:
         data = [row for row in param]
 
     MS = {}
-    for index, d in enumerate(data[:-3]):
-        match = re.match(r'^.*\((.*)\).*=.*(\d*\.\d*)', d)
-        MS[match.group(1)] = float(match.group(2))
-
-    last = len(data)
-
-    max_sup_diff = float(re.match(r'.*= (.*)', data[last-3]).group(1))
-
-    cannot_be_together = [map(str, list(eval(x))) for x in re.findall(r'{.*?}',data[last-2])]
-
-    must_have = [x.strip() for x in data[last-1].split(':')[1].split('or')]
+    cannot_be_together = []
+    must_have = []
+    for index, d in enumerate(data):
+        if d[0] == 'M':
+            match = re.match(r'^.*\((.*)\).*= (\d*\.\d*)', d)
+            MS[match.group(1)] = float(match.group(2))
+        elif d[0] == 'S':
+            max_sup_diff = float(re.match(r'.*= (.*)', d).group(1))
+        elif d[0] == 'm':
+            must_have = [x.strip() for x in d.split(':')[1].split('or')]
+        elif d[0] == 'c':
+            cannot_be_together = [map(str, list(eval(x))) for x in re.findall(r'{.*?}',d)]
 
     return T, MS, max_sup_diff, cannot_be_together, must_have
-
 
 def init_pass(M, T):
     L = []
@@ -125,8 +128,14 @@ for item,mis in sorted(MS.items(), key=lambda x: (x[1],int(x[0]))):
     M.append(item)
 
 L = init_pass(M, T)
+if L:
+    F[1] = [[L[0]]]
+else:
+    out_file = open(output_file, 'w')
+    out_file.write("No frequent items found")
+    print "Please find output in " + output_file
+    exit()
 
-F[1] = [[L[0]]]
 for l in L[1:]:
     if sup_count[l]/n >= MS[l]:
         F[1].append([l])
