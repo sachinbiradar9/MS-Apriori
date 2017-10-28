@@ -35,6 +35,7 @@ def fileParser(transaction_file, parameter_file):
 
     return T, MS, max_sup_diff, cannot_be_together, must_have
 
+
 def init_pass(M, T):
     L = []
     for t in T:
@@ -173,6 +174,7 @@ for k in range(2,15):
 
     if len(F[k]) < 2:
         break
+
 
 F1 = apply_constraints(F, must_have, cannot_be_together)
 print_in_format(F1)
