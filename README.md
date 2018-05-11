@@ -3,3 +3,6 @@ MS-Apriori is an extended version of Apriori to allow multiple minimum supports.
 
 ## Usage
 `python msapriori.py transaction_file parameter_file output_file`
+
+## Credits
+[Dr. Bing Liu](https://www.cs.uic.edu/~liub/)
